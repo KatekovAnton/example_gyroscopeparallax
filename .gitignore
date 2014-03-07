@@ -1,0 +1,41 @@
+# Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+*xcuserdata*
+*xcworkspace*
+*.DS_Store*
+
+# vs
+MAX.vcproject/ipch/*
+MAX.vcproject/Debug.win32/*
+MAX.vcproject/MAXNewWindows/Debug/*
+MAX.vcproject/MAXNewWindows/Debug.win32/*
+MAX.vcproject/MAXNewWindows/Max.res
+MAX.vcproject/MAXNewWindows.sdf
+MAX.vcproject/MAXNewWindows.suo
+MAX.vcproject/MAXNewWindows/Resources/*
+MAX.vcproject/MAXNewWindows/simple/*
+MAX.vcproject/MAXNewWindows.opensdf
+MAX.vcproject/MAXNewWindows.v11.suo
+MAX.vcproject/Release.win32/*
+MAX.vcproject/MAXNewWindows/Release/*
+MAX.vcproject/Release/*
+MAX.vcproject/MAXNewWindows/Save/*
+!MAX.vcproject/MAXNewWindows/Save/dummy.txt
+
+# android
+MAX.android/assets/*
+MAX.vcproject/MAXNewWindows/Resources/*

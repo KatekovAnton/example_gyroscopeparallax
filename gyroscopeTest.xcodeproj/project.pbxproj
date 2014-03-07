@@ -14,13 +14,22 @@
 		8B9E3D4018CA340500EE487A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E3D3F18CA340500EE487A /* main.m */; };
 		8B9E3D4418CA340500EE487A /* GTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E3D4318CA340500EE487A /* GTAppDelegate.m */; };
 		8B9E3D4718CA340500EE487A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B9E3D4518CA340500EE487A /* Main.storyboard */; };
-		8B9E3D4A18CA340500EE487A /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E3D4918CA340500EE487A /* GTViewController.m */; };
 		8B9E3D4C18CA340500EE487A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B9E3D4B18CA340500EE487A /* Images.xcassets */; };
 		8B9E3D5318CA340500EE487A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9E3D5218CA340500EE487A /* XCTest.framework */; };
 		8B9E3D5418CA340500EE487A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9E3D3318CA340500EE487A /* Foundation.framework */; };
 		8B9E3D5518CA340500EE487A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9E3D3718CA340500EE487A /* UIKit.framework */; };
 		8B9E3D5D18CA340500EE487A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B9E3D5B18CA340500EE487A /* InfoPlist.strings */; };
 		8B9E3D5F18CA340500EE487A /* gyroscopeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E3D5E18CA340500EE487A /* gyroscopeTestTests.m */; };
+		8B9E3D6D18CA380B00EE487A /* SFMGyroManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E3D6B18CA380B00EE487A /* SFMGyroManager.m */; };
+		8B9E3D7118CA3C8C00EE487A /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E3D7018CA3C8C00EE487A /* GTViewController.m */; };
+		8B9E3D7418CA3CA000EE487A /* GTParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9E3D7318CA3CA000EE487A /* GTParallaxView.m */; };
+		8B9E3D7D18CA3F3300EE487A /* cloud_05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9E3D7618CA3F3300EE487A /* cloud_05@2x.png */; };
+		8B9E3D7E18CA3F3300EE487A /* s_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9E3D7718CA3F3300EE487A /* s_01@2x.png */; };
+		8B9E3D7F18CA3F3300EE487A /* s_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9E3D7818CA3F3300EE487A /* s_02@2x.png */; };
+		8B9E3D8018CA3F3300EE487A /* s_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9E3D7918CA3F3300EE487A /* s_03@2x.png */; };
+		8B9E3D8118CA3F3300EE487A /* s_04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9E3D7A18CA3F3300EE487A /* s_04@2x.png */; };
+		8B9E3D8218CA3F3300EE487A /* s_05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9E3D7B18CA3F3300EE487A /* s_05@2x.png */; };
+		8B9E3D8318CA3F3300EE487A /* s_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B9E3D7C18CA3F3300EE487A /* s_bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +54,26 @@
 		8B9E3D4218CA340500EE487A /* GTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAppDelegate.h; sourceTree = "<group>"; };
 		8B9E3D4318CA340500EE487A /* GTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAppDelegate.m; sourceTree = "<group>"; };
 		8B9E3D4618CA340500EE487A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B9E3D4818CA340500EE487A /* GTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTViewController.h; sourceTree = "<group>"; };
-		8B9E3D4918CA340500EE487A /* GTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
 		8B9E3D4B18CA340500EE487A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8B9E3D5118CA340500EE487A /* gyroscopeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gyroscopeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B9E3D5218CA340500EE487A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8B9E3D5A18CA340500EE487A /* gyroscopeTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gyroscopeTestTests-Info.plist"; sourceTree = "<group>"; };
 		8B9E3D5C18CA340500EE487A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8B9E3D5E18CA340500EE487A /* gyroscopeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gyroscopeTestTests.m; sourceTree = "<group>"; };
+		8B9E3D6A18CA380B00EE487A /* SFMGyroManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMGyroManager.h; sourceTree = "<group>"; };
+		8B9E3D6B18CA380B00EE487A /* SFMGyroManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMGyroManager.m; sourceTree = "<group>"; };
+		8B9E3D6C18CA380B00EE487A /* SFMGyroManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMGyroManagerDelegate.h; sourceTree = "<group>"; };
+		8B9E3D6F18CA3C8C00EE487A /* GTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTViewController.h; sourceTree = "<group>"; };
+		8B9E3D7018CA3C8C00EE487A /* GTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
+		8B9E3D7218CA3CA000EE487A /* GTParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTParallaxView.h; sourceTree = "<group>"; };
+		8B9E3D7318CA3CA000EE487A /* GTParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTParallaxView.m; sourceTree = "<group>"; };
+		8B9E3D7618CA3F3300EE487A /* cloud_05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud_05@2x.png"; sourceTree = "<group>"; };
+		8B9E3D7718CA3F3300EE487A /* s_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "s_01@2x.png"; sourceTree = "<group>"; };
+		8B9E3D7818CA3F3300EE487A /* s_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "s_02@2x.png"; sourceTree = "<group>"; };
+		8B9E3D7918CA3F3300EE487A /* s_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "s_03@2x.png"; sourceTree = "<group>"; };
+		8B9E3D7A18CA3F3300EE487A /* s_04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "s_04@2x.png"; sourceTree = "<group>"; };
+		8B9E3D7B18CA3F3300EE487A /* s_05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "s_05@2x.png"; sourceTree = "<group>"; };
+		8B9E3D7C18CA3F3300EE487A /* s_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s_bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +133,12 @@
 		8B9E3D3918CA340500EE487A /* gyroscopeTest */ = {
 			isa = PBXGroup;
 			children = (
+				8B9E3D6818CA37E300EE487A /* Resources */,
+				8B9E3D6918CA37FB00EE487A /* Utils */,
+				8B9E3D6E18CA381F00EE487A /* Screens */,
 				8B9E3D4218CA340500EE487A /* GTAppDelegate.h */,
 				8B9E3D4318CA340500EE487A /* GTAppDelegate.m */,
 				8B9E3D4518CA340500EE487A /* Main.storyboard */,
-				8B9E3D4818CA340500EE487A /* GTViewController.h */,
-				8B9E3D4918CA340500EE487A /* GTViewController.m */,
 				8B9E3D4B18CA340500EE487A /* Images.xcassets */,
 				8B9E3D3A18CA340500EE487A /* Supporting Files */,
 			);
@@ -150,6 +172,41 @@
 				8B9E3D5B18CA340500EE487A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B9E3D6818CA37E300EE487A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B9E3D7618CA3F3300EE487A /* cloud_05@2x.png */,
+				8B9E3D7718CA3F3300EE487A /* s_01@2x.png */,
+				8B9E3D7818CA3F3300EE487A /* s_02@2x.png */,
+				8B9E3D7918CA3F3300EE487A /* s_03@2x.png */,
+				8B9E3D7A18CA3F3300EE487A /* s_04@2x.png */,
+				8B9E3D7B18CA3F3300EE487A /* s_05@2x.png */,
+				8B9E3D7C18CA3F3300EE487A /* s_bg.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B9E3D6918CA37FB00EE487A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8B9E3D6A18CA380B00EE487A /* SFMGyroManager.h */,
+				8B9E3D6B18CA380B00EE487A /* SFMGyroManager.m */,
+				8B9E3D6C18CA380B00EE487A /* SFMGyroManagerDelegate.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8B9E3D6E18CA381F00EE487A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8B9E3D6F18CA3C8C00EE487A /* GTViewController.h */,
+				8B9E3D7018CA3C8C00EE487A /* GTViewController.m */,
+				8B9E3D7218CA3CA000EE487A /* GTParallaxView.h */,
+				8B9E3D7318CA3CA000EE487A /* GTParallaxView.m */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +287,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B9E3D4C18CA340500EE487A /* Images.xcassets in Resources */,
+				8B9E3D8118CA3F3300EE487A /* s_04@2x.png in Resources */,
+				8B9E3D8218CA3F3300EE487A /* s_05@2x.png in Resources */,
+				8B9E3D7E18CA3F3300EE487A /* s_01@2x.png in Resources */,
 				8B9E3D3E18CA340500EE487A /* InfoPlist.strings in Resources */,
+				8B9E3D7D18CA3F3300EE487A /* cloud_05@2x.png in Resources */,
+				8B9E3D8318CA3F3300EE487A /* s_bg.jpg in Resources */,
+				8B9E3D8018CA3F3300EE487A /* s_03@2x.png in Resources */,
 				8B9E3D4718CA340500EE487A /* Main.storyboard in Resources */,
+				8B9E3D7F18CA3F3300EE487A /* s_02@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +315,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B9E3D4018CA340500EE487A /* main.m in Sources */,
-				8B9E3D4A18CA340500EE487A /* GTViewController.m in Sources */,
+				8B9E3D6D18CA380B00EE487A /* SFMGyroManager.m in Sources */,
+				8B9E3D7418CA3CA000EE487A /* GTParallaxView.m in Sources */,
 				8B9E3D4418CA340500EE487A /* GTAppDelegate.m in Sources */,
+				8B9E3D7118CA3C8C00EE487A /* GTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +527,7 @@
 				8B9E3D6418CA340500EE487A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B9E3D6518CA340500EE487A /* Build configuration list for PBXNativeTarget "gyroscopeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +536,7 @@
 				8B9E3D6718CA340500EE487A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
